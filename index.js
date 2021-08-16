@@ -3,4 +3,5 @@ const app =express()
 const PORT = 3002
 app.listen(PORT, (req, res) => {
     res.send('Connected to server1')
+    console.log('connected')
 })
